@@ -1,37 +1,238 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my survey</title>
+    <style>
+    body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0px 60px;
+}
 
-You can use the [editor on GitHub](https://github.com/mrosales03/Organized-files/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+.header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  overflow-y: auto;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 1000;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ul {
+  margin: 30px auto;
+  text-align: center;
+}
 
-### Markdown
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 0 40px;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+li:hover {
+  color: #DBE9EE;
+}
 
-```markdown
-Syntax highlighted code block
+h1 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
 
-# Header 1
-## Header 2
-### Header 3
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 40px auto;
+}
 
-- Bulleted
-- List
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
-1. Numbered
-2. List
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-**Bold** and _Italic_ and `Code` text
+p {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px;
+}
 
-[Link](url) and ![Image](src)
-```
+.welcome {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    padding: 40px;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+.question {
+    margin: 120px auto;
+    text-align: center;
+    position: relative;
+    top: 240px;
+}
 
-### Jekyll Themes
+.answer {
+    border: 1px solid #466995;
+    display: inline-block;
+    height: 100px;
+    margin: 20px;
+    padding-top: 40px;
+    width: 220px;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrosales03/Organized-files/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+.answer:hover {
+    background: #C0D6DF;
+    color: #FFF;
+}
+    </style>
+</head>
+    <body>
+        
+        <div class="header">
+            <ul>
+                <li>Question 1</li>
+                <li>Question 2</li>
+                <li>Question 3</li>
+                <li>Question 4</li>
+                <li>Question 5</li>
+                <li>Question 6</li>
+            </ul>
+            </div>
 
-### Support or Contact
+            <div class="welcome">
+                <h1>Welcome to my survey!</h1>
+                <p>Hello, my name is Miguel. I created this survey using mark up languages like Html and Css.</p>
+            </div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            <div class="question">
+                <h4>Question 1</h4>
+                <h2>How many days a week do you use social media?</h2>
+
+                <div class="answer">
+                    <h3>1-2 Days</h3> 
+                </div>
+
+                <div class="answer">
+                    <h3>2-5 Days</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>5-7 Days</h3>
+                </div>
+            </div>
+
+            <div class="question">
+                <h4>Question 2</h4>
+                <h2>Which social media platform do you prefer?</h2>
+
+                <div class="answer">
+                    <h3>Facebook</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>Instagram</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>Twitter</h3>
+                </div>
+            </div>
+
+            <div class="question">
+                <h4>Question 3</h4>
+                <h2>Do you consider social media to be addictive?</h2>
+
+                <div class="answer">
+                    <h3>Yes</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>No</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>Undecided</h3>
+                </div>
+
+            <div class="Question">
+                 <h4>Question 4</h4>
+                 <h2>Do you think Social media should disappear completely?</h2>
+
+                 <div class="answer">
+                     <h3>Yes</h3>
+                 </div>
+
+                 <div class="answer">
+                     <h3>No</h3>
+                 </div>
+
+                 <div class="answer">
+                     <h3>maybe</h3>
+                 </div>
+            </div>
+
+            <div class="question">
+                <h4>Question 5</h4>
+                <h2>Are you addicted to social media?</h2>
+
+                <div class="answer">
+                    <h3>Yes</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>No</h3>
+                </div>
+
+                <div class="answer">
+                    <h3>Absolutely</h3>
+                </div>
+            </div>
+
+               <div class="question">
+                    <h4>Question 6</h4>
+                    <h2>Have you ever wondered how social media apps are create it?</h2>
+
+                    <div class="answer">
+                         <h3>Yes</h3>
+                    </div>
+
+                    <div class="answer">
+                          <h3>No</h3>
+                    </div> 
+
+                    <div class="answer">
+                          <h3>Not Interested</h3>
+                    </div>
+                </div>       
+    </body>
+</html>
